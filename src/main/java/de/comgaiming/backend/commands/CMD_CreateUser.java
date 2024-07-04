@@ -15,7 +15,7 @@ public class CMD_CreateUser {
             username = BackendApplication.getScanner().nextLine();
             switch (username)
             {
-                case "backend", "root":
+                case "backend", "root", "nico", "legan100", "admin", "administrator":
                     BackendApplication.getLogger().logError("You can not create the user " + username + ".");
                     break;
             }
